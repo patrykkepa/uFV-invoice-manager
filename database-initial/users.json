@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "6319c9cc0dd4195e0b6681f8"
+  },
+  "uuid": "37e760cf-11fe-4c15-bf57-05af643a7c34",
+  "organization": "12634cf4-91d8-4e66-b88e-110ac95bdbee",
+  "username": "admin1",
+  "password": "25f43b1486ad95a1398e3eeb3d83bc4010015fcc9bedb35b432e00298d5021f7",
+  "profile": {
+    "fullName": "Bill Gates",
+    "email": "bill.gates@gmail.com"
+  },
+  "acl": [
+    {
+      "alias": "validatePassword",
+      "function": "validatePassword",
+      "args": "37e760cf-11fe-4c15-bf57-05af643a7c34",
+      "methods": [
+        "POST"
+      ]
+    },
+    {
+      "alias": "changePassword",
+      "function": "changePassword",
+      "args": "37e760cf-11fe-4c15-bf57-05af643a7c34",
+      "methods": [
+        "POST",
+        "PUT"
+      ]
+    },
+    {
+      "alias": "profile",
+      "validator": "profile_generic",
+      "collection": "users",
+      "uuid": "37e760cf-11fe-4c15-bf57-05af643a7c34",
+      "key": "profile",
+      "methods": [
+        "GET",
+        "PUT"
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6319c9d48f92d6ce5a608afe"
+  },
+  "uuid": "a358acef-1af7-49af-887e-efa79acf0a3f",
+  "organization": "12634cf4-91d8-4e66-b88e-110ac95bdbee",
+  "username": "admin2",
+  "password": "1c142b2d01aa34e9a36bde480645a57fd69e14155dacfab5a3f9257b77fdc8d8",
+  "profile": {
+    "fullName": "Elon Musk",
+    "email": "elon.musk@gmail.com"
+  },
+  "acl": [
+    {
+      "alias": "validatePassword",
+      "function": "validatePassword",
+      "args": "37e760cf-11fe-4c15-bf57-05af643a7c34",
+      "methods": [
+        "POST"
+      ]
+    },
+    {
+      "alias": "changePassword",
+      "function": "changePassword",
+      "args": "37e760cf-11fe-4c15-bf57-05af643a7c34",
+      "methods": [
+        "POST",
+        "PUT"
+      ]
+    },
+    {
+      "alias": "profile",
+      "validator": "profile_generic",
+      "collection": "users",
+      "uuid": "a358acef-1af7-49af-887e-efa79acf0a3f",
+      "key": "profile",
+      "methods": [
+        "GET",
+        "PUT"
+      ]
+    }
+  ]
+}]

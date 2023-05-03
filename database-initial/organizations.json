@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "63579866b6ac1f8e0f900f7e"
+  },
+  "uuid": "12634cf4-91d8-4e66-b88e-110ac95bdbee",
+  "name": "Organization1",
+  "channels": [
+    {
+      "name": "mail",
+      "type": "mail",
+      "value": "parafia@gmail.com"
+    },
+    {
+      "name": "phone",
+      "type": "phone",
+      "value": "48535535535"
+    }
+  ],
+  "acl": [
+    {
+      "alias": "version",
+      "function": "version",
+      "methods": [
+        "GET"
+      ]
+    },
+    {
+      "alias": "fv",
+      "collection": "organizations",
+      "uuid": "12634cf4-91d8-4e66-b88e-110ac95bdbee",
+      "key": "fv",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ]
+    }
+  ],
+  "fv": [
+    {
+      "author": "Elon",
+      "upload_date": "2023.04.30",
+      "date": "2023.04.15",
+      "net_amount": "1544,72",
+      "gross_amount": "1900",
+      "status": "paid",
+      "company": "Apple",
+      "field": "Electronics",
+      "number": "123xxx"
+    },
+    {
+      "author": "Bill",
+      "upload_date": "2023.03.16",
+      "date": "2023.03.01",
+      "net_amount": "284,55",
+      "gross_amount": "350",
+      "status": "unpaid",
+      "company": "Lenovo",
+      "field": "Electronics",
+      "number": "111xxx"
+    }
+  ]
+}]
