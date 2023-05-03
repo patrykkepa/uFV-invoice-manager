@@ -8,12 +8,12 @@
 ## Technologies
 
 - [Node](https://www.python.org/) (v16.15.1) - JavaScript runetime environment
-- [Express](https://www.pygame.org/news) (v4.18.1) -  framework for building RESTful APIs with Node.js
-- [Passport](https://www.pygame.org/news) (v0.6.0) - authentication middleware for Node.js
-- [Axios](https://www.pygame.org/news) (v1.3.4) - promise based HTTP client for the browser and node.js
-- [Chalk](https://www.pygame.org/news) (v4.1.2) - module for text styling
-- [CLI welcome](https://www.pygame.org/news) (v2.2.2) - welcome header for Node.js CLI software
-- [CLI table](https://www.pygame.org/news) (v0.3.11) - unicode tables for the CLI
+- [Express](https://expressjs.com/) (v4.18.1) -  framework for building RESTful APIs with Node.js
+- [Passport](https://www.passportjs.org/) (v0.6.0) - authentication middleware for Node.js
+- [Axios](https://axios-http.com/docs/intro) (v1.3.4) - promise based HTTP client for the browser and node.js
+- [Chalk](https://github.com/chalk/chalk) (v4.1.2) - module for text styling
+- [CLI welcome](https://github.com/ahmadawais/cli-welcome) (v2.2.2) - welcome header for Node.js CLI software
+- [CLI table](https://github.com/Automattic/cli-table) (v0.3.11) - unicode tables for the CLI
 
 # Instruction
 > General idea is to create local database with MongoDB, upload initial database structure, set up database related configs, install mandatory dependencies and run backend and frontend part of an app.
