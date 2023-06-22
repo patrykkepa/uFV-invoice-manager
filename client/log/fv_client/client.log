@@ -70,3 +70,31 @@
 2023-06-06 19:05:17 [debug]: admin1 logged in
 2023-06-06 19:05:34 [info]: client listening on port 8080
 2023-06-06 19:05:39 [info]: client listening on port 8080
+2023-06-22 17:54:14 [info]: client listening on port 8080
+2023-06-22 17:54:51 [warn]: Authentication failed for admin1
+2023-06-22 17:54:58 [warn]: Authentication failed for asdf
+2023-06-22 17:55:24 [warn]: Authentication failed for admin1
+2023-06-22 17:55:30 [warn]: Authentication failed for admin1
+2023-06-22 17:55:46 [warn]: Authentication failed for admin1
+2023-06-22 17:55:53 [warn]: Authentication failed for admin1
+2023-06-22 17:56:16 [verbose]: Authentication succeded for admin1
+2023-06-22 17:56:16 [debug]: admin1 logged in
+2023-06-22 18:02:34 [debug]: admin1 logged out
+2023-06-22 18:02:40 [verbose]: Authentication succeded for admin1
+2023-06-22 18:02:40 [debug]: admin1 logged in
+2023-06-22 18:07:11 [info]: client listening on port 8080
+2023-06-22 18:07:19 [verbose]: Authentication succeded for admin1
+2023-06-22 18:07:19 [debug]: admin1 logged in
+2023-06-22 18:09:56 [debug]: admin1 logged out
+2023-06-22 18:10:02 [verbose]: Authentication succeded for admin1
+2023-06-22 18:10:02 [debug]: admin1 logged in
+2023-06-22 18:10:20 [info]: client listening on port 8080
+2023-06-22 18:10:27 [verbose]: Authentication succeded for admin1
+2023-06-22 18:10:27 [debug]: admin1 logged in
+2023-06-22 18:10:45 [debug]: admin1 logged out
+2023-06-22 18:10:50 [verbose]: Authentication succeded for admin1
+2023-06-22 18:10:50 [debug]: admin1 logged in
+2023-06-22 18:11:04 [debug]: admin1 logged out
+2023-06-22 18:11:09 [verbose]: Authentication succeded for admin1
+2023-06-22 18:11:09 [debug]: admin1 logged in
+2023-06-22 18:11:19 [debug]: admin1 logged out
