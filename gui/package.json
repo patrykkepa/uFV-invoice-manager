@@ -1,7 +1,7 @@
 {
 	"name": "fv_console",
 	"description": "CLI for managing client-server app",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"license": "UNLICENSED",
 	"bin": {
 		"fv_console": "index.js"

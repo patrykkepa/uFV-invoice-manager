@@ -1,9 +1,0 @@
-{
-    "toolInstance": "localhost",
-    "publicIp": "{{set}}",
-    "dbUrl": "mongodb://localhost",
-    "dbName": "fv",
-    "dbOptions": { "useUnifiedTopology": true },
-    "logDir": "/var/log/fv_client",
-    "processPrefix": "fv_client-"
-}

@@ -53,6 +53,7 @@ const login_url = 'http://localhost:8080/auth'
 const changePassword_url = 'http://localhost:8080/rest/changePassword'
 const profile_url = 'http://localhost:8080/rest/profile'
 const fv_url = 'http://localhost:8080/rest/fv'
+const fv_lookup_url = 'http://localhost:8080/rest/fv_lookup'
 
 
 
@@ -408,7 +409,7 @@ handle_searchFV = async () => {
 		value: searchValue
 	}
 
-	fvItem = await axios.post(fv_url, payload, {
+	fvItem = await axios.post(fv_lookup_url, payload, {
 		headers: {
 			cookie: cookieJar.myCookies
 		}
